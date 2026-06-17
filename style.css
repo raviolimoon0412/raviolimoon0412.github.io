@@ -405,5 +405,9 @@ main {
 }
 
 hr {
-    
+    font-family: 'Orbitron', sans-serif;
+    color: var(--accent-cyan);
+    letter-spacing: 3px;
+    margin-bottom: 3rem;
+    text-shadow: 0 0 10px var(--accent-cyan);
 }
