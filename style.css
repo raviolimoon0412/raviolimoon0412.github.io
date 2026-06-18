@@ -411,3 +411,15 @@ hr {
     margin-bottom: 3rem;
     text-shadow: 0 0 10px var(--accent-cyan);
 }
+
+img {
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%;
+    /* 16:9 ratio */
+    height: auto-fit;
+    margin: 1.5rem 0;
+    border: 1px solid var(--accent-cyan);
+    box-shadow: 0 0 15px rgba(0, 242, 255, 0.2);
+    overflow: visible;
+}
